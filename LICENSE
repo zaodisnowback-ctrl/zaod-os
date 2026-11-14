@@ -1,0 +1,42 @@
+Zaod OS - Proprietary License
+Copyright (c) 2026 Zaod OS. All rights reserved.
+
+This license covers the Zaod OS image (the ISO), its branding, artwork, the
+Zaod desktop layer, and all Zaod OS source code and build recipes.
+
+1. PERMITTED USE
+   You may download a Zaod OS ISO published by the owner and run it on machines
+   you own or control, for personal, non-commercial use.
+
+2. PROHIBITED USE
+   Without prior written permission from the owner you may not:
+   a. copy, mirror, re-upload, re-host or otherwise redistribute the ISO, in
+      whole or in part, to any person, service, torrent, mirror or repository;
+   b. publish, share or make available the Zaod OS source code, build recipes,
+      branding assets or artwork;
+   c. fork, clone for redistribution, rebrand, modify or create derivative
+      works from Zaod OS, its image, its branding or its sources;
+   d. sell, license, rent or bundle Zaod OS with hardware or services;
+   e. use the Zaod name or logo for any product, service or distribution;
+   f. remove or alter this license or any copyright notice.
+
+3. NO WARRANTY
+   The software is provided "as is", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose and non-infringement. The owner is not
+   liable for any claim, damage or other liability arising from the use of the
+   software.
+
+4. THIRD-PARTY COMPONENTS
+   Zaod OS bundles unmodified Debian packages (Debian, Linux, XFCE, Firefox and
+   others). Each of those keeps its own upstream license and copyright, and
+   nothing in this license restricts the rights granted to you by those
+   licenses in those individual components.
+
+5. TERMINATION
+   Any breach of this license terminates your rights under it immediately and
+   requires you to destroy every copy you hold.
+
+6. PERMISSION REQUESTS
+   Write to the repository owner (github.com/zaodisnowback-ctrl) for any use
+   not expressly granted above.
