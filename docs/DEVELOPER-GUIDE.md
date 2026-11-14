@@ -105,9 +105,12 @@ Release output name: `Zaod-OS-x86_64.iso`, tag format
 1. Build the ISO and record size + SHA-256.
 2. Boot it before publishing: BIOS and UEFI, then confirm kernel, hostname,
    greeter and that the desktop comes up.
-3. Create a pre-release tag `zaod-os-iso-YYYY.MM.DD[-vN]` with release notes
-   listing what changed and what is still broken.
-4. Upload `Zaod-OS-x86_64.iso` as the single asset (limit: 2 GiB per asset).
+3. Create the release as a **draft** with tag `zaod-os-iso-YYYY.MM.DD[-vN]` and
+   notes listing what changed and what is still broken.
+4. Upload `Zaod-OS-x86_64.iso` as the single asset (limit: 2 GiB per asset),
+   confirm the size and SHA-256 shown by GitHub, then publish the draft.
+   Releases in the source archive are immutable once published, so an asset can
+   only be added while the release is still a draft.
 5. Update `README.md` checksum table and `docs/CHANGELOG.md`.
 6. Keep the previous ISO available until the new one is confirmed working.
 
